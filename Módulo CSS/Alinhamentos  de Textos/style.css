@@ -1,0 +1,45 @@
+/* Alinhamento dos texto */
+.text-aligned {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px; /*Delimita o tamanho da div*/
+    border: 1px solid red;
+}
+
+/* Text decoration */
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through; /*Risco em cima do que foi escrito*/
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: black;
+}
+
+/* Transformando o texto */
+
+.uppercase {
+    text-transform: uppercase; /*Maiuscula*/
+}
+
+.lower {
+    text-transform: lowercase; /*Minuscula*/
+}
+
+/* Espaçamento do texto */
+
+.espacamento {
+    letter-spacing: 5px;
+    font-family: serif; /*Família da fonte*/
+    font-style: oblique; /*Estilo da fonte*/
+    font-weight: normal; /* peso da fonte */
+    font-size: 15px; /*tamanho da fonte*/
+}

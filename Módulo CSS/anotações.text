@@ -5,3 +5,8 @@ Padding e o espeçamento interno
 Margin e o espaçamento externo
 
 Regras da borda = tamanho, aspecto e cor da borda
+
+Uppercase = letras maiúsculas 
+Lowercase = letras minúsculas
+
+O css deve ser aplicado quando queremos um texto em Uppercase, nunca se escreve o texto em caixa alta no HTML
