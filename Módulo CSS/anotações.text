@@ -1,2 +1,7 @@
 box model e composto por quatro partes, sendo elas:
 altura e largura, padding (espaçamento interno), border e margin.
+
+Padding e o espeçamento interno 
+Margin e o espaçamento externo
+
+Regras da borda = tamanho, aspecto e cor da borda

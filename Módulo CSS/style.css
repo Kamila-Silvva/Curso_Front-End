@@ -94,3 +94,59 @@ h2 {
     padding-bottom: 15px;
     padding-right: 20px;
 }
+
+/* Simplificação do espaçamento */
+
+.espacamento-simplificado-1 {
+    background-color: crimson;
+    padding: 6px 12px 18px 24px;
+}
+
+.espacamento-simplificado-2 {
+    background-color: beige;
+    padding: 10px 20px;
+}
+
+/* Padding com Width */
+
+.width-borde-box {
+    background-color: #444;
+    color: aliceblue;
+    width: 400px;
+    padding: 50px;
+}
+
+.borde-box {
+    background-color: #504c4c;
+    color: aliceblue;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box; /*Respeita o tamanho total do elemento*/
+}
+
+/* Borda */
+
+.borda1 {
+    border: 1px solid red;
+    border-left: 10px solid blue;
+    padding: 10px;
+}
+
+.borda2 {
+    border: 2px dotted blueviolet;
+    padding: 25px;
+    border-bottom: 2PX solid red; /*Borda individual*/
+    border-radius: 50px;  /*Arrendondando a borda*/ /*Pode se utilizar a regra da borda para estilizar somente o elemento sem a borda*/
+    margin: 50px; /*Espaçamento externo*/
+}
+
+/* Box model */
+
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 150px;
+    height: 120px;
+}
