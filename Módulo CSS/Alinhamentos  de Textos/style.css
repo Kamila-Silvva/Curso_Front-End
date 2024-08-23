@@ -47,6 +47,7 @@
 }
 
 /* Posição dos elementos */
+/* Static */
 
 .static {
     position: static; /*Essa posição respeita o fluxo do HTML*/
@@ -59,11 +60,97 @@
 /* Relative */
 
 .relative {
-    position: relative; 
+    position: relative; /*Começa a quebrar um pouco do fluxo do HTML*/
     background-color: rgb(56, 0, 61);
     color: rgb(255, 255, 255);
     width: 100px;
     height: 100px;
     top: 100px; /*Define a posição do elemento*/
     left: 100px; /*Define a posição do elemento*/
+}
+
+/* Absolute */
+
+.absolute {
+    position: absolute; /*Quebra o fluxo do HTML*/
+    background-color: rgb(163, 29, 175);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* Junção */
+
+.juncao {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute1, .absolute2 {
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    position: absolute;
+}
+
+.absolute1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+.fixed {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 113, 113);
+    border: 1px solid blue;
+    position: fixed;
+    top: 50px; /*O elemento só irá aparecer na tela quando o left, bottom, right e top forem definidos*/
+    right: 50px;
+}
+
+.sticky {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(83, 0, 0);
+    border: 1px solid rgb(42, 42, 51);
+    position: sticky;
+    top: 10px; 
+}
+
+/* Z-index */
+.absolute3, .absolute4, .absolute5 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(42, 162, 231);
+    position: absolute;
+}
+
+.absolute3 {
+    top: 0;
+    left: 0;
+    z-index: 3; /*Reorganiza os elementos que devem se sobressair*/
+}
+
+.absolute4 {
+    top: 10px;
+    left: 10px;
+    background-color: aqua;
+    z-index: 2;
+}
+
+.absolute5 {
+    top: 40px;
+    left: 40px;
+    background-color: rgb(32, 90, 90);
+    z-index: 1;
 }
