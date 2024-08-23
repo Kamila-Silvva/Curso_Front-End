@@ -1,4 +1,5 @@
-/* Alinhamento dos texto */
+/* Alinhamento de texto */
+
 .text-aligned {
     text-align: right;
 }
@@ -42,4 +43,27 @@
     font-style: oblique; /*Estilo da fonte*/
     font-weight: normal; /* peso da fonte */
     font-size: 15px; /*tamanho da fonte*/
+    display: none;/* Escondendo o elemento */
+}
+
+/* Posição dos elementos */
+
+.static {
+    position: static; /*Essa posição respeita o fluxo do HTML*/
+    background-color: black;
+    color: antiquewhite;
+    width: 100px;
+    height: 100px;
+}
+
+/* Relative */
+
+.relative {
+    position: relative; 
+    background-color: rgb(56, 0, 61);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    top: 100px; /*Define a posição do elemento*/
+    left: 100px; /*Define a posição do elemento*/
 }
