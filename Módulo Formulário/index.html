@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <!-- Primeiro formulário -->
+    <!-- Atributos do formulário -->
+    <h2>Formulário HTML</h2>
+    <form action="registre.php" method="get">
+      <div>
+        <label>Nome: </label>
+        <!-- Descreve o que faz o input -->
+        <input type="text" />
+        <!--  Cria o campo a ser preenchido dentro do formulário -->
+      </div>
+      <!-- Atributo name -->
+      <div>
+        <!-- Atributo da label -->
+        <label for="age">Idade: </label>
+        <input type="text" name="age" />
+      </div>
+      <!-- Elemento Select -->
+      <div>
+        <label for="job">Selecione a sua profissão</label>
+        <select name="job">
+          <option value="programador">Programador</option>
+          <option value="dentista">Dentista</option>
+          <option value="cientista-de-dados">Ciêntista de Dados</option>
+          <option value="piscicologo">Piscologo</option>
+        </select>
+      </div>
+
+      <!-- Atributo Selected -->
+      <div>
+        <label for="contract">Você leu os termos do contrato?</label>
+        <select name="contract">
+          <option value="sim">Sim</option>
+          <option value="nao" selected>Não</option>
+        </select>
+      </div>
+
+      <!-- Múltiplas seleções -->
+       <div>
+        <label for="items">Selecione os itém desejados:</label>
+        <select name="items" multiple>
+          <option value="pera">Pera</option>
+          <option value="uva">Uva</option>
+          <option value="maca">Maça</option>
+          <option value="kiwi">Kiwi</option>
+        </select>
+       </div>
+
+       <!-- Textarea -->
+        <div>
+          <label for="coment">Comentário</label>
+          <textarea name="coment"></textarea>
+        </div>
+
+        <!-- fieldeset e legend -->
+         <div>
+          <fieldset>
+            <legend>Preencha a suas informações</legend>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome">
+          </fieldset>
+         </div>
+
+         <!-- Datalist -->
+          
+      <!-- Envio do Form -->
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
