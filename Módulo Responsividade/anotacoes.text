@@ -1,0 +1,20 @@
+É uma técnica de adaptar uma pág web para vários dispositivos diferentes.
+Detectamos o que o usuário está utilizando, é adptamos o sistema para ser usado por ele. 
+
+tega adcionado ao head
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> Isso faz com que o conteúdo se adapte com os dispositivos
+
+Escala 1:1
+
+Media Query - um recurso utilizado para criar breakpoints (eles que adaptam o nosso projeto para diferentes tipos de tela)
+
+
+Padrões do breakpoints
+
+600px e abaixo: celular;
+786px até 600px: tablets;
+992px até 786px: mini laptops;
+992pz e acima: laptops e desktop;
+
+Esses valores são comuns para desenvolver em diferentes dispositivos
