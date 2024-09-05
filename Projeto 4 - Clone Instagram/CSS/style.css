@@ -1,22 +1,16 @@
-<<<<<<< Updated upstream
 /* Geral */
 * {
     padding: 0;
     margin: 0;
-=======
-* {
-    margin: 0;
-    padding: 0;
->>>>>>> Stashed changes
     box-sizing: border-box;
     font-family: Helvetica;
+    font-size: 11px;
 }
 
 body {
     background-color: #fafafa;
 }
 
-<<<<<<< Updated upstream
 /* containers */
 #main-container {
     display: flex;
@@ -147,6 +141,43 @@ body {
     color: #373799;
 }
 
-=======
-/* Containers */
->>>>>>> Stashed changes
+/* Registro */
+
+#register-container {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  width: 350px;
+  margin-top: 10px;
+  padding: 25px;
+}
+#register-container p {
+  font-size: 14px;
+  color: #262626;
+}
+
+#register-container a {
+  color: #4a95f6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* GET APP */
+#get-app-container {
+  text-align: center;
+  width: 350px;
+}
+
+#get-app-container p {
+  margin: 20px 0;
+  font-size: 13px;
+}
+
+#get-app-container a {
+  text-decoration: none;
+}
+
+#get-app-container img {
+  width: 136px;
+  height: 40px;
+}
+
